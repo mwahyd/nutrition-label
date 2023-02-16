@@ -21,10 +21,14 @@ h2 {
 /* class selectors */
 
 .main-container {
-  border: 2px solid red;
+  border: 2px solid black;
   width: 300px;
-  margin: 3rem auto;
-  padding: 0 0.5rem;
+  margin: 1.5rem auto;
+  padding: 0 7px;
+}
+
+.fine-print p {
+  font-size: 0.65rem;
 }
 
 /* aesthetic classes */
@@ -48,7 +52,9 @@ h2 {
 }
 
 .title {
-  letter-spacing: 0.12rem;
+  letter-spacing: 0.11rem;
+  text-align: center;
+  margin: -5px 0;
 }
 
 .underline {
