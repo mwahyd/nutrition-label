@@ -42,6 +42,11 @@ h2 {
   justify-content: space-between;
 }
 
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .title {
   letter-spacing: 0.12rem;
 }
@@ -56,6 +61,7 @@ h2 {
 }
 
 .medium {
+  background-color: black;
   height: 5px;
 }
 
@@ -65,4 +71,8 @@ h2 {
 
 .X-font {
   font-size: 2rem;
+}
+
+.indent {
+  margin-left: 1rem;
 }
